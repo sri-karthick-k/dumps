@@ -1,0 +1,13 @@
+Quick Sort is a popular and efficient sorting algorithm that follows the divide and conquer strategy to sort an array or a list of elements. It was developed by Tony Hoare in 1960. The basic idea of quicksort is to divide the array into smaller sub-arrays, sort them separately and then combine them to get the sorted result.
+
+
+The algorithm works as follows:
+
+1. Choose a pivot:
+	The first is to choose a pivot element from the array. The pivot is used to partition the array into two sub-arrays during the sorting process.
+
+2. Partitioning:
+	Once the pivot is selected, the next step is to partition the array into two parts. Elements smaller than the pivot are moved to the left, and elements greater than the pivot are moved to the right. The pivot itself will br in its correct sorted position after partitioning.
+
+
+
