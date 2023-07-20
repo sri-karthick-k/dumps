@@ -9,5 +9,18 @@ The algorithm works as follows:
 2. Partitioning:
 	Once the pivot is selected, the next step is to partition the array into two parts. Elements smaller than the pivot are moved to the left, and elements greater than the pivot are moved to the right. The pivot itself will br in its correct sorted position after partitioning.
 
+3. Recursion:
+	After partitioning, we have two smaller sub-arrays. One to the left of the pivot and one to the right. We recursively apply the quicksort algorithm to these sub-arrays.
+
+4. Combine:
+	As the recursion returns, the sub-arrays are sorted, and we combine them to get the fully sorted array.
+
+5. Base Case:
+	The recursion stops then the sub-arrays become single elements or empty. Singke elemenets are already sorted, and empty arrays need to sorting
+
+
+Quick sort has an average time complexity of O(n log n)
+
+
 
 
